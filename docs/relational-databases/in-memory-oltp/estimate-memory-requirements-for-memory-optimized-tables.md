@@ -74,8 +74,8 @@ CREATE TABLE t_hk
   col8 char (30) NOT NULL,   
   col9 char (50) NOT NULL  
 
-  WITH (memory_optimized = on)  
-);
+  
+) WITH (memory_optimized = on);
 GO  
 ```  
 
